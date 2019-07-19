@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {% if user.count > 0 %}
+        {% for u in user %}
+        <h1>{{ u.login }}</h1>
+            {% if prod.count > 0 %}
+                {% for p in prod %}
+                    {% if p.user_id == u.id %}
+                    <table>
+                       <tr> <th>{{ p.price }}</th>
+                       <td><a href="delete/{{p.id}}">Удалить</a></td>
+                       </tr>
+                    </table>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <h3>None</h3>
+            {% endif %}
+        <a href="addprod/{{u.id}}">Добавить продукт</a>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
