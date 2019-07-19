@@ -6,7 +6,8 @@
     <title>222</title>
 </head>
 <body >
-    <div class="col-sm-5" >{% if user.count > 0 %}
+<div class="container">
+    <div class="col-xs-6" >{% if user.count > 0 %}
         {% for u in user %}
         <h1>{{ u.login }}</h1>
             {% if prod.count > 0 %}
@@ -34,5 +35,6 @@
     </form>
     {% endif %}
     </div>
+</div>
 </body>
 </html>
