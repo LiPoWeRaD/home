@@ -5,11 +5,15 @@
     <title>Title</title>
 </head>
 <body>
+<div class="container">
+    <div class="col-xs-6" >
     <form method="POST">
         {% csrf_token %}
         <label>Введи Price</label>
         <input type="number" name="price" maxlength="8">
         <input type="submit" value="Save">
     </form>
+    </div>
+</div>
 </body>
 </html>
