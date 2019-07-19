@@ -26,7 +26,7 @@
         {% endfor %}
     {% else %}
     <h1>Добавить пользователя</h1>
-    <form class="col-sm-5" method="POST" action="create/">
+    <form class="col-sm-1" method="POST" action="create/">
         {% csrf_token %}
         <input type="text" name="login">
         <input type="number" value="password">
