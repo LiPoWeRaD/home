@@ -23,6 +23,13 @@
             {% endif %}
         <a href="addprod/{{u.id}}">Добавить продукт</a>
         {% endfor %}
+    {% else %}
+    <h1>Добавить пользователя</h1>
+    <form method="POST" action="create/">
+        <input type="text" value="Login" name="login">
+        <input type="number" value="password">
+        <input type="submit" value="Создать">
+    </form>
     {% endif %}
 </body>
 </html>
