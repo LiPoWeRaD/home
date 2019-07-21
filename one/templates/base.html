@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <title>{% block title%}Base{% endblock title %}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body >
 
-<nav class="navbar navbar-inverse">
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
     	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -18,10 +21,10 @@
     		<span class="icon-bar"></span>
     	</button>
       <a class="navbar-brand" href="#">Myblog.ru</a>
-    </div>
+    {</div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Главная</a></li>
+      <li class="active"><a href="/">Главная</a></li>
       <li><a href="#">Сделать запись</a></li>
       <li><a href="#">Информация</a></li>
     </ul>
@@ -36,13 +39,32 @@
       </div>
     </form>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="adduser/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </div>
 </nav>
 
+<div class="container-fluid col-lg-12 col-md-12 col-sm-12 col-xs-4 ">{% block content %}
+
+  
+
+
+{% endblock content %}</div>
+<footer class=" navbar-fixed-bottom navbar-inverse">{% block footer %}
+
+  <!-- Copyright -->
+  <div class="container">
+    <h4><small>Put together in less than five minutes by
+      <a href="http://www.martinbean.co.uk/" rel="author">Martin Bean</a>.
+      Uses <a href="http://twitter.github.com/bootstrap/" rel="external">Twitter Bootstrap</a>
+      and <a href="http://ryanfait.com/sticky-footer/" rel="external">Ryan Fait’s Sticky Footer</a>
+      and <a href="#">Aalaap Ghag’s Responsive Padding Fix</a>.</small></h4>
+  </div>
+{% endblock footer %}</footer>
+
 </body>
+
 </html>
 

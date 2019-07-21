@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html lang="ru">
+<head>
+{% block title %}Довавление пользователя{% endblock title%}
+</head>
+<body>
+
+{% block content %}
+<div class="page-header container-fluid"><h1>Введите данные</h1></div>
+    <form class="form" method="post" action="">
+        {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+    </form>
+
+
+	{% endblock content %}
+	{% block footer %}
+	{{ block.super }}
+	{% endblock footer %}
+
+</body>
+</html>

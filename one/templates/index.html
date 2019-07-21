@@ -1,14 +1,18 @@
 
 <!DOCTYPE html>
-{% include "base.html" %}
+{% extends "base.html" %}
 <html lang="ru">
 <head>
-  <title>Bootstrap Example</title>
+  {% block title %}Bootstrap Example{% endblock title %}
 
 </head>
-<body>
-<div class="container-fluid col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
-	<div class="page-header"><h1>Статьи</h1></div>
+<body >
+
+
+
+
+{% block content %}
+	<div class="page-header container-fluid"><h1>Статьи</h1></div>
 {% if user.count > 0 %}
 	{% for u in user %}
 	{% for s in st %}
@@ -30,12 +34,15 @@
 	{% endfor %}
 	{% endfor %}
 {% else %}
-	<div>
-		<h1>Пусто</h1>
-	</div>
+	<div class="container"><span><big>Пусто</big></span></div>
 {% endif %}
-</div>
 
 
+
+
+{% endblock content %}
+{% block footer %}
+{{ block.super }}
+{% endblock footer %}
 </body>
 </html>
