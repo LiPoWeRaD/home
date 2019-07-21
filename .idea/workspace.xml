@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a2af68-06fb-4a66-b956-5681725c524b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/one/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/migrations/0002_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/migrations/0003_auto_20190719_2138.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/addprod.html" beforeDir="false" afterPath="$PROJECT_DIR$/one/templates/addprod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/one/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1874">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="-376">
+              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -47,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/one/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -65,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/one/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -113,8 +100,8 @@
         <option value="$PROJECT_DIR$/one/templates/base.html" />
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/one/views.py" />
-        <option value="$PROJECT_DIR$/one/templates/index.html" />
         <option value="$PROJECT_DIR$/one/models.py" />
+        <option value="$PROJECT_DIR$/one/templates/index.html" />
       </list>
     </option>
   </component>
@@ -239,11 +226,26 @@
       <option name="project" value="LOCAL" />
       <updated>1563579840895</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new 2">
+      <created>1563670305534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563670305534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix1">
+      <created>1563671308766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563671308766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="40" width="1346" height="688" extended-state="1" />
+    <frame x="3" y="40" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27076924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,13 +269,14 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix1" />
     <MESSAGE value="fix2" />
     <MESSAGE value="fix3" />
     <MESSAGE value="fix4" />
     <MESSAGE value="fix5" />
     <MESSAGE value="fix6" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix6" />
+    <MESSAGE value="new 2" />
+    <MESSAGE value="fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/home.html" />
@@ -302,13 +305,6 @@
     <entry file="file://$PROJECT_DIR$/main/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1874">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one/templates/addprod.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -320,13 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -354,6 +343,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
