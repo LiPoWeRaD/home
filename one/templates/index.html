@@ -6,17 +6,17 @@
   {% block title %}Bootstrap Example{% endblock title %}
 
 </head>
-<body >
+<h3 >
 
 
 
 
 {% block content %}
 	<div class="page-header container-fluid"><h1>Статьи</h1></div>
-{% if s.count > 0 %}
+{% if st.count > 0 %}
 	{% for u in user %}
 	{% for s in st %}
-	{% if u.id == s.login_id %}
+	{% if u.id == s.Логин_id %}
 
 	<div class="media container-fluid page-header " >
 		<div class="media-left">
@@ -24,9 +24,10 @@
 			
 		</div>
 	<div class="media-body">
-		<h3 class="media-heading">{{ s.name }} <small><i> от {{ s.date }}</i></small></h3>
-		<p class="">{{ s.text }}</p>
-		<h2 class="media-heading"><small>Написал {{ u.name }}</small></h2>
+
+		<h3 class="media-heading">{{ s.Название }} <small><i> от {{ s.Дата }}</i></small></h3>
+		<p class="">{{ s.Информация }}</p>
+		<h2 class="media-heading"><small>Написал {{ u.Имя }}</small></h2>
 	</div>
 
 	</div> 

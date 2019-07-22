@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a2af68-06fb-4a66-b956-5681725c524b" name="Default Changelist" comment="new 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/one/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/one/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/one/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="150">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/one/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -82,15 +89,6 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/one/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -133,7 +131,6 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/one/templates/forms.py" />
-        <option value="$PROJECT_DIR$/one/models.py" />
         <option value="$PROJECT_DIR$/one/templates/adduser.html" />
         <option value="$PROJECT_DIR$/one/forms.py" />
         <option value="$PROJECT_DIR$/main/wsgi.py" />
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/one/admin.py" />
         <option value="$PROJECT_DIR$/one/templates/base.html" />
         <option value="$PROJECT_DIR$/one/views.py" />
+        <option value="$PROJECT_DIR$/one/models.py" />
         <option value="$PROJECT_DIR$/one/templates/index.html" />
       </list>
     </option>
@@ -305,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563742644691</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix 8">
+      <created>1563754121997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563754121998</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +367,8 @@
     <MESSAGE value="fix1" />
     <MESSAGE value="fix2" />
     <MESSAGE value="fix3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix3" />
+    <MESSAGE value="fix 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 8" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/home.html" />
@@ -422,23 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -473,10 +462,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/one/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/one/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="239">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
         </state>
       </provider>
     </entry>
