@@ -6,13 +6,12 @@
   {% block title %}Bootstrap Example{% endblock title %}
 
 </head>
-<h3 >
 
 
-
+<body>
 
 {% block content %}
-	<div class="page-header container-fluid"><h1>Статьи</h1></div>
+	<div class="page-header container"><h1>Статьи</h1></div>
 {% if st.count > 0 %}
 	{% for u in user %}
 	{% for s in st %}
