@@ -14,10 +14,6 @@ def adduser(request):
     if request.method == 'POST':
         userform = UserForm(request.POST)
         if userform.is_valid():
-            # name = userform.cleaned_data('Имя')
-            # login = userform.cleaned_data('Логин')
-            # password = userform.cleaned_data('Пароль')
-            # userform = userform(name = name, login = login, password = password)
             userform.save()
             return HttpResponseRedirect('/')
     else:

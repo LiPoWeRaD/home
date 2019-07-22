@@ -13,7 +13,7 @@
 
 {% block content %}
 	<div class="page-header container-fluid"><h1>Статьи</h1></div>
-{% if user.count > 0 %}
+{% if s.count > 0 %}
 	{% for u in user %}
 	{% for s in st %}
 	{% if u.id == s.login_id %}
@@ -34,7 +34,8 @@
 	{% endfor %}
 	{% endfor %}
 {% else %}
-	<div class="container"><span><big>Пусто</big></span></div>
+	<div class="container-fluid "><span><big>Пусто</big></span></div>
+
 {% endif %}
 
 
